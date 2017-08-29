@@ -1,0 +1,98 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width:  100%;
+  height: 100%;
+}
+
+body{
+  background-color: #99a;
+  font-family: 'Arial', 'Microsoft JhengHei';
+  text-align: center;
+}
+
+
+.navbar{
+  width:  100%;
+  height: 32px;
+  background-color: #56d;
+
+}
+
+
+.nav{
+  display: inline-block;
+  cursor: pointer;
+  width:  80px;
+  height: 32px;
+  color: #fff;
+  line-height: 32px;
+  cursor: pointer;
+  /* code here... */
+}
+/*
+code here...
+
+
+
+*/
+.nav:hover{
+  background-color: #67f;
+}
+
+
+
+.items{
+  position: relative
+}
+.item{
+  position: absolute;
+  display: inline-block;
+  width:  300px;
+  height: 300px;
+  left: 50%;
+  top: 20px;
+  margin-left: -150px;
+  background-color: #fff;
+  /* code here... */
+}
+/*
+code here...
+
+
+
+
+
+
+
+*/
+
+.item .title{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #678;
+}
+
+.item .img{
+  width:  240px;
+  height: 180px;
+  background-color: #eee;
+  margin: 10px auto;
+}
+
+.submit{
+  width:  240px;
+  height: 40px;
+  margin: 10px auto;
+  color: #fff;
+  line-height: 44px;
+  cursor: pointer;
+  background-color: #56d;
+}
+.submit:hover{
+  background-color: #67f;
+}
+.submit:before{
+  content: '購買';
+}
