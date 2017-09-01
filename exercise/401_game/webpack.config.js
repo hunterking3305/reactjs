@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve('dist'),
     filename: '[name].js',
   },
-
+// devtool? and devServer hash, version...?
   devtool: 'eval-source-map',
   devServer:{
     stats:{
@@ -28,7 +28,7 @@ module.exports = {
       color: true,
     },
   },
-
+// resolve -> modules ? and extensions?
   resolve:{
     modules: [
       path.resolve('src'),
@@ -63,3 +63,8 @@ module.exports = {
   },
 
 };
+
+// QA:
+// (1) js and css will be a bundle package?
+// (2) images will not be packed ? but it will move to other dir?
+// (3) package.json all of modules must be used ?
